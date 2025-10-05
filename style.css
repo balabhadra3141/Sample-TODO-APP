@@ -417,6 +417,7 @@ body.dark #edit-task-form textarea {
     }
     #filter-toggle-mobile {
         display: block;
+        text-align: center;
     }
     .filters {
         display: none;
@@ -425,6 +426,7 @@ body.dark #edit-task-form textarea {
     }
     .filters.active {
         display: flex;
+        text-align: center;
     }
     .filters button {
         width: 100%;

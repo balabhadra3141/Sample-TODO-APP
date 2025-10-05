@@ -35,7 +35,7 @@ function applyThemePreference() {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
         document.body.classList.add('dark');
-        modeToggle.textContent = "☀";
+        modeToggle.textContent = "🔆";
     } else {
         document.body.classList.remove('dark');
         modeToggle.textContent = "🌙";
